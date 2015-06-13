@@ -29,6 +29,7 @@ namespace LEDSwitch
         private void MainPage_Unloaded(object sender, RoutedEventArgs e)
         {
             ledpin.Dispose();
+            swpin.Dispose();
         }
 
         private void InitGPIO()
